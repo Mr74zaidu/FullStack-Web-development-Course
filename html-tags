@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html5 Bookmark</title>
+</head>
+<body>
+
+    <!-- Full form of html
+    Hyper text markup language -->
+
+
+   <!-- Heading Tags -->
+<h1>This is h1</h1>
+<h2>This is h2</h2>
+<h3>This is h3</h3>
+<h4>This is h4</h4>
+<h5>This is h5</h5>
+<h6>This is h6</h6>
+
+   <!-- Paragraph Tag -->
+    <p>This is Paragraph tag.</p>
+
+    <!-- Ancher tag -->
+     <a href="https://www.w3school.com">Click here This is anchor tag!..</a>
+
+     <!-- THis is link breake tag -->
+     <br>    <br>
+     
+     <!-- If you want to open your ancher link in onther tab Then you need you use this. -->
+     <a href="https://www.google.com" target="_blank">Click here and open link in another tab</a><br>
+
+    <!-- image tag if not have immage than print no yet if you want to define width the you ues the width element.-->
+    <img width="250" src="download.jpeg" alt="not yet">
+
+
+<!-- Table Tags -->
+ <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>class</th>
+            <th>language</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+        <td>Zaidu</td>
+        <td>BCA</td>
+        <td>JavaScript</td>
+        </tr>
+
+        <tr>
+            <td>Zaidu</td>
+            <td>BCA</td>
+            <td>JavaScript</td>
+            </tr>
+    </tbody>
+ </table>
+
+ 
+
+ <!-- order list -->
+  <!-- type="i", I, 1, etc -->
+  <ol type="I">
+    <h1>Order list</h1>
+    <li>India</li>
+    <li>Srilanka</li>
+    <li>USA</li>
+  </ol>
+
+  <!-- Unorder list -->
+   <!-- type="square", etc -->
+<ul type="square">
+    <h1>Unorder list</h1>
+    <li>Maharashtra</li>
+    <li>Rajisthan</li>
+    <li>Goa</li>
+</ul>
+
+<!-- Form Tags -->
+ <form action="">  <!--In action we can use get and post method-->
+
+
+    <!-- Input and label Tags -->
+    <label for="name"> Name </label>
+    <input type="text" id="name" placeholder="Enter your name" autofocus><br><br>
+
+    <!-- input tags in radio button -->
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male"> male </label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">female</label><br><br>
+
+    <input type="checkbox" id="checkbox" name="checkbox" required>
+    <label for="checkbox">this is a check box </label> <br><br>
+
+    <!-- Check box -->
+     <label for="cityname">City names</label><br>
+    <select name="cityname" id="cityname">
+        <option value="Delhi">Delhi</option>
+        <option value="mumbais">mumbais</option>
+        <option value="kolkata">kolkata</option>
+        <option value="jalgaon">jalgaon</option>
+    </select><br><br>
+
+    <textarea name="comment" id="textarea" placeholder="Enter your comments here" rows="4"></textarea>
+ </form>
+
+
+<!-- audio tag -->
+<audio src="audio.m4a" controls></audio>
+
+
+<!-- video tag -->
+ <video src="video.mp4" controls="controls" type="video/mp4"></video><br>
+
+
+
+<b>What is id?</b> <!--B is the bold element tag-->
+<p>id is a unique identifier of any elements </p>
+
+<b>What is the class</b>
+<p>Class ham kisi bhi multiple element ko 1 hi class de sakte he </p>
+
+
+<iframe src="https://chatgpt.com/c/673c1feb-5704-800e-985b-c612db7c9279" frameborder="1" title="description"></iframe>
+
+<h1>List of inline element</h1>
+
+<!-- exmaple of inline element -->
+ <span style="background-color: yellow;">i am inline span element</span><br><br>
+<!-- inline element is occupying content width -->
+
+ <!-- Inline and block elements -->
+    <!-- <a> - Anchor (hyperlink)
+<abbr> - Abbreviation
+<b> - Bold text
+<bdi> - Bi-directional Isolation
+<bdo> - Bi-directional Override
+<br> - Line Break
+<cite> - Citation
+<code> - Code (usually for displaying code snippets)
+<data> - Machine-readable data
+<dfn> - Definition
+<em> - Emphasized text (usually italicized)
+<i> - Italic text
+<img> - Image
+<input> - Input field
+<kbd> - Keyboard input
+<label> - Label for form elements
+<mark> - Marked (highlighted) text
+<q> - Inline quotation
+<s> - Strikethrough text
+<samp> - Sample output (used for displaying sample output from programs)
+<small> - Small text
+<span> - Generic inline container (used for styling)
+<strong> - Strong emphasis (usually bold)
+<sub> - Subscript text
+<sup> - Superscript text
+<time> - Date or time
+<u> - Underlined text
+<var> - Variable in mathematical or programming context
+<wbr> - Word break opportunity-->
+
+
+
+
+<!-- example of block element -->
+ <div style="background-color: orange;">i am div block element</div>
+ <!-- block element is occupying 100% width of browser   -->
+ 
+ <!-- list of block element -->
+    <!-- <address> - Contact information
+        <article> - Independent, self-contained content
+        <aside> - Content tangentially related to the main content (like a sidebar)
+        <blockquote> - Block quotation
+        <div> - Generic container for content
+        <dl> - Description list
+        <dt> - Term/name in a description list
+        <dd> - Description of the term in a description list
+        <fieldset> - Grouping of form elements
+        <figcaption> - Caption for a <figure>
+        <figure> - Self-contained content (like images, diagrams)
+        <footer> - Footer section of a document or section
+        <form> - Form for user input
+        <h1> to <h6> - Headings, with <h1> being the highest level and <h6> the lowest
+        <header> - Header section of a document or section
+        <hr> - Horizontal rule (thematic break)
+        <li> - List item (used inside <ul>, <ol>, or <menu>)
+        <main> - Main content of the document
+        <nav> - Navigation links section
+        <ol> - Ordered list
+        <p> - Paragraph
+        <pre> - Preformatted text
+        <section> - Section of content
+        <table> - Table
+        <ul> - Unordered list -->
+        
+
+
+
+</body>
+</html>
